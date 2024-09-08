@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Without;
+    src: url(/fonts/WithoutAltSans-Black.ttf);
+}
+
+@font-face {
+    font-family: Droid;
+    src: url(/fonts/DroidSerif.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #013335;
+    color: goldenrod;
+}
+
+h1{
+    font-family: Without;
+    font-size: smaller;
+    margin-top: 20vh;
+}
+
+.loading-screen{
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loading-screen img{
+    width:14vw;
+    box-shadow: 2px 2px 5px 2px black;
+    border-radius: 100%;
+    margin-top: 4vh;
+}
+
+.progress-bar{
+    width: 50vw;
+    height: 2vh;
+    background-color:#013335;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 8vh;
+    animation: Fade-in 1s ease-in-out forwards;
+}
+
+.progress{
+    height: 2vh;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+@keyframes Fade-in {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation: Fade-In ease 3s  forwards;
+}
+
+.bible-verse{
+    width: 50vw;
+    text-align: center;
+    font-family: droid;
+    font-style: italic;
+    font-size: smaller;
+    letter-spacing: 0.4px;
+}
+
+.bv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+}

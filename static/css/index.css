@@ -10,13 +10,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: #013335;
-  color: goldenrod;
+  color: whitesmoke;
 }
 
 h1 {
   font-family: Without;
   font-size: smaller;
   margin-top: 20vh;
+  color: whitesmoke;
 }
 
 .loading-screen {
@@ -46,7 +47,7 @@ h1 {
 
 .progress {
   height: 2vh;
-  background-color: goldenrod;
+  background-color: whitesmoke;
   border-radius: 5px;
 }
 

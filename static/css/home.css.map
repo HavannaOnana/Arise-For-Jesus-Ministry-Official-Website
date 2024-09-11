@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["..\\..\\sass\\home.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;AAGJ;EACI;EACA","sourcesContent":["@font-face {\r\n    font-family: Without;\r\n    src: url(/fonts/WithoutAltSans-Black.ttf);\r\n}\r\n\r\n@font-face {\r\n    font-family: Droid;\r\n    src: url(/fonts/DroidSerif.ttf);\r\n}\r\n\r\n\r\n.deel1{\r\n    \r\n}"]}

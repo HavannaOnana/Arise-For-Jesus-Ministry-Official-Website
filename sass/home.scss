@@ -8,7 +8,36 @@
     src: url(/fonts/DroidSerif.ttf);
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
 
+//css for deel
 .deel1{
-    
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deel1 .donate-div{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
 }

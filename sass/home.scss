@@ -67,6 +67,7 @@ body{
     position: relative; /* Important for positioning dropdown-content */
     transition: all 1s ease-in-out;
   }
+
   
   .dropdown-content {
     display: flex;
@@ -78,12 +79,17 @@ body{
     top: 100%; /* Position below dropdown */
     left: 5vw;
     width: 10vw;
-    background-color: gold; /* Optional: Set background color */
+    background-color: whitesmoke; /* Optional: Set background color */
     transition: all 1s ease-in-out;
   }
 
   .dropdown-content a{
     padding: 5px;
+    transition: all 1s ease-in-out;
+  }
+
+  .dropdown-content a:hover{
+    background-color: grey;
   }
   
   .dropdown:hover .dropdown-content {
@@ -92,21 +98,65 @@ body{
   }
 
 .phone-links{
-    display: flex;
-    flex-direction: column;
+   
+    display: none;
+}
+
+.phone-links .main{
+    font-family: Monserrat;
+    transition: all 1s ease-in;
+}
+
+.phone-links .main:hover{
+    background-color: goldenrod;
 }
 
 .hamburger-class{
     width: 100vw;
     display: none;
+    font-size:2em ;
+    transition: all 1s ease-in;
 }
 
+.hamburger-class:hover .phone-links{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 35vw;
+    text-align: left;
+    padding-bottom: 2vw;
+}
+
+.phone-links a{
+    margin-top: 2vh;
+    transition: background-color 2s ease-in;
+    padding-left: 2vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-right: 2vw;
+    font-size: medium;
+}
+
+.phone-links a:hover{
+    background-color: grey;
+}
+
+
 @media (max-width : 1000px) {
+    .deel1{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .logo img{
+        width: 10vw;
+    }
     .nav{
         display: none;
     }
     .hamburger-class{
         display: block;
+        margin-left: 20%;
     }
 }
 

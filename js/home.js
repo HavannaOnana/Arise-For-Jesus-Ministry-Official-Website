@@ -17,6 +17,14 @@ phoneLinks.addEventListener("mouseleave",function(){
 const ministries = document.querySelector(".photo-with-links");
 
 
-function handleScroll(){
-    //ge
-}
+window.addEventListener("scroll", function(){
+    const scrollPosition = window.scrollY;
+    var triggerOffset = 100;
+
+    if(scrollPosition > triggerOffset){
+        ministries.classList.add("fade-in")
+    }
+    else{
+        ministries.classList.remove("fade-in")
+    }
+})

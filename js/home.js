@@ -10,3 +10,13 @@ hamburger.addEventListener("click",function(){
 phoneLinks.addEventListener("mouseleave",function(){
     phoneLinks.classList.remove("phone-links-add")
 })
+
+
+// animation for scroll animation when we scroll past an amount of window px
+
+const ministries = document.querySelector(".photo-with-links");
+
+
+function handleScroll(){
+    //ge
+}

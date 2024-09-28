@@ -395,4 +395,59 @@ body {
 
 .zoom {
   color: darkblue;
+}
+
+.current_church {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 4%;
+  background-color: whitesmoke;
+  color: #013335;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.current_church video {
+  width: 60vw;
+}
+
+.video-details {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-details img {
+  width: 5vw;
+  margin-top: 2vh;
+}
+
+.video-details .header {
+  font-family: droid;
+  font-style: italic;
+}
+
+.video-details h1 {
+  font-family: without;
+}
+
+.video-details a {
+  font-family: without;
+  text-decoration: none;
+  color: red;
+}
+
+@media (max-width: 1000px) {
+  .current_church {
+    display: flex;
+    flex-direction: column;
+  }
+  .current_church video {
+    width: 100vw;
+  }
 }/*# sourceMappingURL=home.css.map */

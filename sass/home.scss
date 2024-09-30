@@ -13,6 +13,11 @@
     src: url(/fonts/Montserrat-SemiBold.otf);
 }
 
+@font-face {
+    font-family: Gothic;
+    src: url(/fonts/Naville-Regular\ DEMO.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -578,7 +583,56 @@ body{
         display: flex;
         flex-direction: column;
     }
+
+    .upcoming-event{
+        font-size: smaller;
+    }
     .christmas img{
         width: 100vw;
     }
+    .date p{
+        font-size: 1em;
+    }
 }
+
+//css for gallery
+.gallery{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    width: 100vw;
+}
+
+.gallery hr{
+    width: 100vw;
+}
+
+.gallery h1{
+    font-family: Gothic;
+    font-size: 4em;
+    font-weight: 100;
+    text-align: right;
+    width: 100vw;
+}
+
+.photos{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foto{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.foto img{
+    width:30vw;
+}
+
+

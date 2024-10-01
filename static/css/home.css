@@ -552,6 +552,7 @@ body {
   flex-direction: column;
   margin-top: 5vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .gallery hr {
@@ -571,17 +572,31 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 250vw;
+  justify-content: flex-start;
+  animation: scroll 30s linear infinite;
 }
 
 .foto {
-  width: 100vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
   align-items: center;
+  margin: 0 1vw;
 }
 
 .foto img {
-  width: 30vw;
+  width: 100%;
+}
+
+/* Keyframes for infinite left scrolling */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-40%);
+  }
 }/*# sourceMappingURL=home.css.map */

@@ -738,3 +738,67 @@ body{
 .donate img{
     width: 50vw;
 }
+
+//css for memebres
+.members{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.members h1{
+    font-family: without;
+    color: #013335;
+}
+
+.members p{
+    font-family: droid;
+    color: goldenrod;
+    font-style: italic;
+}
+
+
+.members-info{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.members-info h1{
+    font-family: Din;
+    font-weight: bolder;
+}
+
+.members-info h3{
+    font-family: droid;
+    font-size: small;
+    color: goldenrod;
+    font-style: italic;
+}
+
+.members-info p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #013335;
+}
+
+.members-info img{
+    width: 20vw;
+}
+
+@media (max-width : 1000px){
+    .members{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .members-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .members-info img{
+        width: 100vw;
+    }
+}

@@ -1,3 +1,8 @@
+![Screenshot_37](https://github.com/user-attachments/assets/349da449-cce6-4a46-acbb-77d4c9457626)
+![Screenshot_71](https://github.com/user-attachments/assets/e3366fc6-9076-40cd-9d5b-33245b4a9405)
+![Screenshot_72](https://github.com/user-attachments/assets/190e1f25-e6e3-4b9a-b271-ed14cdd1a8ca)
+![Screenshot_75](https://github.com/user-attachments/assets/6d0ac9ce-ca0f-45c1-9091-c60351f42d39)
+![Screenshot_74](https://github.com/user-attachments/assets/ba361a6d-78a0-45c0-bdbb-2a1bd102bf6f)
 # Arise for Jesus Ministry Office Website
 
 This project is a website for **Arise for Jesus Ministry Office**, built with HTML, SCSS, and JavaScript to provide a seamless and interactive experience.

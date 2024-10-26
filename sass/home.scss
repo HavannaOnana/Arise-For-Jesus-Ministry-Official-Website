@@ -739,6 +739,18 @@ body{
     width: 50vw;
 }
 
+@media (max-width : 1000px){
+
+    .donate{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .donate img{
+        width: 100vw;
+    }
+}
+
 //css for memebres
 .members{
     display: flex;

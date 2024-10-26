@@ -17,6 +17,6 @@ function animateProgressBar(barId, targetPercentage) {
 
 // Start animations for both progress bars with different target percentages
 window.onload = () => {
-  animateProgressBar("myBar1", 30); // Animate the first bar to 30%
-  animateProgressBar("myBar2", 50); // Animate the second bar to 50%
+  animateProgressBar("myBar1", 50); // Animate the first bar to 30%
+  animateProgressBar("myBar2", 25); // Animate the second bar to 50%
 };

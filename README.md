@@ -1,4 +1,4 @@
-https://arise4jesusnegative.netlify.app
+https://arise-for-jesus-ministry-official-website.vercel.app/
 
 https://github.com/user-attachments/assets/d50d243b-d1c4-4120-9598-8ab2770d6996
 
